@@ -27,7 +27,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* About Section */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-rose-400">Wow Care Family Salon</h3>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_family-beauty-hub/artifacts/hddpbwqx_image.png"
+              alt="Wow Care Family Salon Logo"
+              className="h-24 w-auto object-contain mb-4"
+            />
             <p className="text-gray-300 mb-4 leading-relaxed">
               Women-owned beauty salon in Basavanagudi, Bengaluru. Providing professional care and beautiful results since years.
             </p>
@@ -149,6 +153,9 @@ const Footer = () => {
               </p>
               <p className="text-gray-500 text-xs mt-1">
                 Proudly Women-Owned Business
+              </p>
+              <p className="text-gray-500 text-xs mt-1">
+                Developed by <span className="text-rose-400 font-semibold">Praveen Chandra</span>
               </p>
             </div>
           </div>

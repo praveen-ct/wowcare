@@ -27,14 +27,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="bg-gradient-to-br from-rose-400 to-rose-600 p-2 rounded-full group-hover:scale-110 transition-transform">
-              <Sparkles className="w-6 h-6 text-white" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-neutral-900">Wow Care</h1>
-              <p className="text-xs text-rose-600">Family Salon</p>
-            </div>
+          <Link to="/" className="flex items-center gap-3 group">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_family-beauty-hub/artifacts/hddpbwqx_image.png"
+              alt="Wow Care Family Salon Logo"
+              className="h-16 w-auto object-contain group-hover:scale-105 transition-transform"
+            />
           </Link>
 
           {/* Desktop Navigation */}
