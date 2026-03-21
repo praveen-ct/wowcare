@@ -301,8 +301,13 @@ const Contact = () => {
                     <div className="flex items-start gap-4">
                       <Mail className="w-6 h-6 text-rose-500 flex-shrink-0 mt-1" />
                       <div>
-                        <h3 className="font-bold text-neutral-900 mb-2">Website</h3>
-                        <p className="text-neutral-700">wowcare.com</p>
+                        <h3 className="font-bold text-neutral-900 mb-2">Email</h3>
+                        <a 
+                          href="mailto:wowcare.co.in@gmail.com"
+                          className="text-rose-600 hover:text-rose-700 font-semibold"
+                        >
+                          wowcare.co.in@gmail.com
+                        </a>
                       </div>
                     </div>
                   </div>
